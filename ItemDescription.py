@@ -5,9 +5,8 @@ import codecs
 import openpyxl
 from openpyxl import Workbook
 
-path = "C:/Users/Mr. Paul/Downloads/商家中心－-理想生活上天猫.html"
-excel_path = "C:/Users/Mr. Paul/Desktop/ItemDescription.xlsx"
-f=codecs.open("C:/Users/Mr. Paul/Downloads/商家中心－-理想生活上天猫.html", 'r', encoding='utf-8')
+excel_path = "C:/Users/Mr. Paul/Desktop/[name of the excel document].xlsx"
+f=codecs.open("C:/Users/Mr. Paul/Downloads/[name of the html].html", 'r', encoding='utf-8')
 #print(f.read())
 
 id_element = []
